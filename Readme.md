@@ -1,1 +1,1 @@
-Projeto de uma carga eletrÙnica inteligente (electronic load) apresentado como trabalho de fim de curso pela Universidade Federal do Cear·
+Projeto de uma carga eletr√¥nica inteligente (electronic load) apresentado como trabalho de fim de curso pela Universidade Federal do Cear√°.
