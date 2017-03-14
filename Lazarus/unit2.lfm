@@ -1,0 +1,112 @@
+object Form2: TForm2
+  Left = 670
+  Height = 231
+  Top = 187
+  Width = 287
+  Caption = 'Comunicação'
+  ClientHeight = 231
+  ClientWidth = 287
+  LCLVersion = '1.6.0.4'
+  object GroupBox1: TGroupBox
+    Left = 8
+    Height = 208
+    Top = 8
+    Width = 258
+    Caption = 'Comunicação'
+    ClientHeight = 188
+    ClientWidth = 254
+    TabOrder = 0
+    object Button1: TButton
+      Left = 160
+      Height = 25
+      Top = 8
+      Width = 75
+      Caption = 'Conectar'
+      OnClick = Button1Click
+      TabOrder = 0
+    end
+    object Terminal: TMemo
+      Left = 16
+      Height = 90
+      Top = 80
+      Width = 219
+      Lines.Strings = (
+        'Terminal'
+      )
+      TabOrder = 1
+    end
+    object ComboBox1: TComboBox
+      Left = 24
+      Height = 23
+      Top = 24
+      Width = 68
+      ItemHeight = 15
+      Items.Strings = (
+        'COM0'
+        'COM1'
+        'COM2'
+        'COM3'
+        'COM4'
+        'COM5'
+        'COM6'
+        'COM7'
+        'COM8'
+        'COM9'
+        'COM10'
+        'COM11'
+        'COM12'
+        'COM13'
+        'COM14'
+        'COM15'
+        'COM16'
+        'COM17'
+        'COM18'
+        'COM19'
+        'COM20'
+        'COM21'
+        'COM22'
+        'COM23'
+        'COM24'
+        'COM25'
+        'COM26'
+        'COM27'
+        'COM28'
+        'COM29'
+        'COM30'
+      )
+      TabOrder = 2
+      Text = 'Porta'
+    end
+    object Button2: TButton
+      Left = 160
+      Height = 25
+      Top = 40
+      Width = 75
+      Caption = 'Fechar'
+      OnClick = Button2Click
+      TabOrder = 3
+    end
+    object Shape1: TShape
+      Left = 112
+      Height = 26
+      Top = 24
+      Width = 24
+      Brush.Color = clRed
+      OnChangeBounds = Shape1ChangeBounds
+      Shape = stCircle
+    end
+  end
+  object LazSerial1: TLazSerial
+    Active = False
+    BaudRate = br___110
+    DataBits = db8bits
+    Parity = pNone
+    FlowControl = fcNone
+    StopBits = sbOne
+    Device = 'COM1'
+    RcvLineCRLF = False
+    OnRxData = LazSerial1RxData
+    left = 128
+    top = 128
+  end
+end

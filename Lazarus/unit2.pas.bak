@@ -1,0 +1,95 @@
+unit Unit2;
+
+{$mode objfpc}{$H+}
+
+interface
+
+uses
+  Classes, SysUtils, FileUtil, Forms, Controls, Graphics, Dialogs, StdCtrls,
+  ExtCtrls, LazSerial, ueled;
+
+type
+
+  { TForm2 }
+
+  TForm2 = class(TForm)
+    Button1: TButton;
+    Button2: TButton;
+    ComboBox1: TComboBox;
+    GroupBox1: TGroupBox;
+    LazSerial1: TLazSerial;
+    Shape1: TShape;
+    Terminal: TMemo;
+    procedure Button1Click(Sender: TObject);
+    procedure Button2Click(Sender: TObject);
+    procedure LazSerial1RxData(Sender: TObject);
+  private
+    { private declarations }
+  public
+    { public declarations }
+  end;
+
+var
+  Form2: TForm2;
+  buffer: string;
+implementation
+
+{$R *.lfm}
+
+{ TForm2 }
+
+procedure TForm2.Button1Click(Sender: TObject);
+begin
+  if(LazSerial1.Active) then
+  begin
+  Button1.Caption:='Conectar';
+  LazSerial1.Active:=false;
+  Shape1.Brush.Color:=clRed;
+  end
+  else
+  begin
+  Button1.Caption:='Desconectar';
+  LazSerial1.Device:='COM'+IntToStr(ComboBox1.ItemIndex);
+  LazSerial1.Active:=true;
+  Shape1.Brush.Color:=clGreen;              //função de conexão da serial
+  end;
+end;
+
+procedure TForm2.Button2Click(Sender: TObject);
+begin
+  Hide;
+end;
+
+procedure TForm2.LazSerial1RxData(Sender: TObject);
+var
+posi: integer;
+A,V: string;
+begin
+       buffer:=buffer+LazSerial1.ReadData; //recebe o dado
+
+
+       posi:=pos('i',buffer);          //localiza o marcador da corrente
+       if(posi<>0) then                 //verifica se existe
+       begin
+                   if(length(buffer)>posi+4) then  //testa se a informaÃ§Ã£o estÃ¡ completa
+                   begin
+                        A:=copy(buffer,posi+1,5);      //copia o valor da corrente na string
+                        delete(buffer,posi,6);      //remove o valor copiado
+                   end;
+       end;
+
+       posi:=pos('v',buffer);          //localiza o marcador da tensÃ£o
+       if(posi<>0) then                  //verifica se existe
+       begin
+            if(length(buffer)>posi+4) then  //testa se a informaÃ§Ã£o estÃ¡ completa
+            begin
+                 V:=copy(buffer,posi+1,5);     //copia o valor da tensÃ£o na string
+                 delete(buffer,posi,6);      //remove o valor copiado
+            end;
+       end;
+
+       Terminal.Lines.Add(buffer+IntToStr(length(buffer)));
+end;
+
+end.
+

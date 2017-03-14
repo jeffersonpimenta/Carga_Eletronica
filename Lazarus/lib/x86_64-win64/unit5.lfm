@@ -1,0 +1,130 @@
+object Form5: TForm5
+  Left = 166
+  Height = 613
+  Top = 54
+  Width = 1054
+  Caption = 'Swipe de Corrente'
+  ClientHeight = 613
+  ClientWidth = 1054
+  LCLVersion = '1.6.0.4'
+  object Chart1: TChart
+    Left = 16
+    Height = 600
+    Top = 8
+    Width = 920
+    AxisList = <    
+      item
+        Marks.Format = '%0:.9g A'
+        Marks.Style = smsCustom
+        Minors = <>
+        Range.UseMin = True
+        Title.LabelFont.Orientation = 900
+        Title.Visible = True
+        Title.Caption = 'Corrente'
+        Transformations = ChartAxisTransformations1
+      end    
+      item
+        Alignment = calBottom
+        Minors = <>
+        Range.UseMin = True
+      end    
+      item
+        Grid.Visible = False
+        Alignment = calRight
+        Marks.Format = '%0:.9g V'
+        Marks.Style = smsCustom
+        Minors = <>
+        Range.UseMin = True
+        Title.LabelFont.Orientation = 900
+        Title.Visible = True
+        Title.Caption = 'Tensão'
+        Transformations = ChartAxisTransformations2
+      end>
+    Foot.Brush.Color = clBtnFace
+    Foot.Font.Color = clBlue
+    Legend.Alignment = laBottomCenter
+    Legend.ColumnCount = 2
+    Legend.Visible = True
+    Title.Brush.Color = clBtnFace
+    Title.Font.Color = clBlue
+    Title.Text.Strings = (
+      'TAChart'
+    )
+    object Chart1LineSeries1: TLineSeries
+      Legend.Format = 'Corrente'
+      AxisIndexY = 0
+      LinePen.Color = clRed
+    end
+    object Chart1LineSeries2: TLineSeries
+      Legend.Format = 'Tensão'
+      AxisIndexY = 2
+      LinePen.Color = clBlue
+    end
+  end
+  object StringGrid1: TStringGrid
+    Left = 977
+    Height = 56
+    Top = 424
+    Width = 48
+    TabOrder = 1
+    Visible = False
+  end
+  object GroupBox1: TGroupBox
+    Left = 936
+    Height = 81
+    Top = 24
+    Width = 108
+    Caption = 'Energia'
+    ClientHeight = 61
+    ClientWidth = 104
+    TabOrder = 2
+    object Label1: TLabel
+      Left = 0
+      Height = 15
+      Top = 8
+      Width = 64
+      Alignment = taRightJustify
+      AutoSize = False
+      Caption = '0'
+      ParentColor = False
+    end
+    object Label2: TLabel
+      Left = 72
+      Height = 15
+      Top = 8
+      Width = 26
+      Caption = 'mAh'
+      ParentColor = False
+    end
+    object Label3: TLabel
+      Left = 0
+      Height = 15
+      Top = 40
+      Width = 64
+      Alignment = taRightJustify
+      AutoSize = False
+      Caption = '0'
+      ParentColor = False
+    end
+    object Label4: TLabel
+      Left = 72
+      Height = 15
+      Top = 40
+      Width = 18
+      Caption = 'Wh'
+      ParentColor = False
+    end
+  end
+  object ChartAxisTransformations1: TChartAxisTransformations
+    left = 997
+    top = 316
+    object ChartAxisTransformations1AutoScaleAxisTransform1: TAutoScaleAxisTransform
+    end
+  end
+  object ChartAxisTransformations2: TChartAxisTransformations
+    left = 997
+    top = 369
+    object ChartAxisTransformations2AutoScaleAxisTransform1: TAutoScaleAxisTransform
+    end
+  end
+end
