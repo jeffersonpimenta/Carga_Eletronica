@@ -65,7 +65,7 @@
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
 <layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="96" name="Values" color="7" fill="1" visible="no" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="99" name="SpiceOrder" color="5" fill="1" visible="no" active="yes"/>
@@ -23595,48 +23595,48 @@ DIN A3, landscape with extra doc field</description>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
 <part name="IC3" library="linear" deviceset="78*" device="TV" technology="8"/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
-<part name="R7" library="resistor" deviceset="R-EU_" device="0204/7"/>
+<part name="R7" library="resistor" deviceset="R-EU_" device="0204/7" value="10K"/>
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
-<part name="R14" library="pot" deviceset="TRIM_US-" device="LI10"/>
+<part name="R14" library="pot" deviceset="TRIM_US-" device="LI10" value="10K"/>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
 <part name="GND23" library="supply1" deviceset="GND" device=""/>
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
 <part name="SW1" library="piher" deviceset="CI-11" device=""/>
-<part name="R10" library="rcl" deviceset="R-EU_" device="0204/7"/>
-<part name="R9" library="rcl" deviceset="R-EU_" device="0204/7"/>
+<part name="R10" library="rcl" deviceset="R-EU_" device="0204/7" value="10K"/>
+<part name="R9" library="rcl" deviceset="R-EU_" device="0204/7" value="10K"/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
-<part name="R13" library="rcl" deviceset="R-EU_" device="0207/10"/>
+<part name="R13" library="rcl" deviceset="R-EU_" device="0207/10" value="10K"/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="IC6" library="linear" deviceset="LM324" device="N"/>
-<part name="Q3" library="transistor-power" deviceset="IRFI540NPBF" device=""/>
-<part name="Q4" library="transistor-power" deviceset="IRFI540NPBF" device=""/>
-<part name="Q5" library="transistor-power" deviceset="IRFI540NPBF" device=""/>
-<part name="Q6" library="transistor-power" deviceset="IRFI540NPBF" device=""/>
-<part name="R32" library="rcl" deviceset="R-EU_" device="VTA56"/>
-<part name="R29" library="rcl" deviceset="R-EU_" device="VTA56"/>
-<part name="R30" library="rcl" deviceset="R-EU_" device="VTA56"/>
-<part name="R31" library="rcl" deviceset="R-EU_" device="VTA56"/>
+<part name="Q3" library="transistor-power" deviceset="IRFI540NPBF" device="" value="IRF640"/>
+<part name="Q4" library="transistor-power" deviceset="IRFI540NPBF" device="" value="IRF640"/>
+<part name="Q5" library="transistor-power" deviceset="IRFI540NPBF" device="" value="IRF640"/>
+<part name="Q6" library="transistor-power" deviceset="IRFI540NPBF" device="" value="IRF640"/>
+<part name="R32" library="rcl" deviceset="R-EU_" device="VTA56" value="0,47R"/>
+<part name="R29" library="rcl" deviceset="R-EU_" device="VTA56" value="0,47R"/>
+<part name="R30" library="rcl" deviceset="R-EU_" device="VTA56" value="0,47R"/>
+<part name="R31" library="rcl" deviceset="R-EU_" device="VTA56" value="0,47R"/>
 <part name="IC1" library="linear" deviceset="LM324" device="N"/>
-<part name="R20" library="rcl" deviceset="R-EU_" device="0207/10"/>
-<part name="R22" library="rcl" deviceset="R-EU_" device="0207/12"/>
-<part name="R24" library="rcl" deviceset="R-EU_" device="0207/10"/>
-<part name="R26" library="rcl" deviceset="R-EU_" device="0207/10"/>
-<part name="C15" library="rcl" deviceset="CPOL-EU" device="E2,5-6E"/>
-<part name="C16" library="rcl" deviceset="CPOL-EU" device="E2,5-6E"/>
-<part name="C17" library="rcl" deviceset="CPOL-EU" device="E2,5-6E"/>
-<part name="C18" library="rcl" deviceset="CPOL-EU" device="E2,5-6E"/>
+<part name="R20" library="rcl" deviceset="R-EU_" device="0207/10" value="470R"/>
+<part name="R22" library="rcl" deviceset="R-EU_" device="0207/12" value="470R"/>
+<part name="R24" library="rcl" deviceset="R-EU_" device="0207/10" value="470R"/>
+<part name="R26" library="rcl" deviceset="R-EU_" device="0207/10" value="470R"/>
+<part name="C15" library="rcl" deviceset="CPOL-EU" device="E2,5-6E" value="10uF"/>
+<part name="C16" library="rcl" deviceset="CPOL-EU" device="E2,5-6E" value="10uF"/>
+<part name="C17" library="rcl" deviceset="CPOL-EU" device="E2,5-6E" value="10uF"/>
+<part name="C18" library="rcl" deviceset="CPOL-EU" device="E2,5-6E" value="10uF"/>
 <part name="GND24" library="supply1" deviceset="GND" device=""/>
 <part name="GND25" library="supply1" deviceset="GND" device=""/>
 <part name="GND26" library="supply1" deviceset="GND" device=""/>
 <part name="GND27" library="supply1" deviceset="GND" device=""/>
-<part name="R15" library="resistor" deviceset="R-EU_" device="0204/7"/>
-<part name="C11" library="rcl" deviceset="CPOL-EU" device="E2,5-6E"/>
+<part name="R15" library="resistor" deviceset="R-EU_" device="0204/7" value="10K"/>
+<part name="C11" library="rcl" deviceset="CPOL-EU" device="E2,5-6E" value="10uF"/>
 <part name="GND18" library="supply1" deviceset="GND" device=""/>
 <part name="GND28" library="supply1" deviceset="GND" device=""/>
 <part name="IC7" library="linear" deviceset="*741" device="P" technology="LM"/>
-<part name="R27" library="rcl" deviceset="R-EU_" device="0207/10"/>
-<part name="R18" library="rcl" deviceset="R-EU_" device="0207/10"/>
-<part name="R17" library="pot" deviceset="TRIM_EU-" device="LI10"/>
+<part name="R27" library="rcl" deviceset="R-EU_" device="0207/10" value="39K"/>
+<part name="R18" library="rcl" deviceset="R-EU_" device="0207/10" value="1,2K"/>
+<part name="R17" library="pot" deviceset="TRIM_EU-" device="LI10" value="10K"/>
 <part name="R33" library="rcl" deviceset="R-EU_" device="0207/15"/>
 <part name="R34" library="rcl" deviceset="R-EU_" device="0207/10"/>
 <part name="GND31" library="supply1" deviceset="GND" device=""/>
@@ -23644,16 +23644,16 @@ DIN A3, landscape with extra doc field</description>
 <part name="D6" library="diode" deviceset="1N4148" device="DO35-10"/>
 <part name="GND34" library="supply1" deviceset="GND" device=""/>
 <part name="R2" library="ptc-ntc" deviceset="NTC640" device=""/>
-<part name="R1" library="resistor" deviceset="R-EU_" device="0207/12"/>
+<part name="R1" library="resistor" deviceset="R-EU_" device="0207/12" value="10K"/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="FRAME1" library="frames" deviceset="DINA3_L" device=""/>
 <part name="GND33" library="supply1" deviceset="GND" device=""/>
 <part name="LOAD+" library="wirepad" deviceset="WIREPAD" device="4,16O1,6"/>
 <part name="LOAD-" library="wirepad" deviceset="WIREPAD" device="4,16O1,6"/>
-<part name="R28" library="rcl" deviceset="R-EU_" device="0204/7"/>
+<part name="R28" library="rcl" deviceset="R-EU_" device="0204/7" value="39K"/>
 <part name="Q2" library="transistor-npn" deviceset="BC548*" device=""/>
-<part name="R8" library="resistor" deviceset="R-EU_" device="0204/7"/>
+<part name="R8" library="resistor" deviceset="R-EU_" device="0204/7" value="1K"/>
 <part name="X1" library="con-molex" deviceset="22-23-2021" device=""/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="GND21" library="supply1" deviceset="GND" device=""/>
@@ -23668,16 +23668,16 @@ DIN A3, landscape with extra doc field</description>
 <part name="C1" library="capacitor-wima" deviceset="C" device="5/2.5"/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="P+10" library="supply1" deviceset="+15V" device=""/>
-<part name="C8" library="capacitor-wima" deviceset="C" device="5/2.5"/>
-<part name="C12" library="capacitor-wima" deviceset="C" device="5/2.5"/>
+<part name="C8" library="capacitor-wima" deviceset="C" device="5/2.5" value="100nF"/>
+<part name="C12" library="capacitor-wima" deviceset="C" device="5/2.5" value="100nF"/>
 <part name="P+9" library="supply1" deviceset="+15V" device=""/>
-<part name="R3" library="resistor" deviceset="R-EU_" device="0207/10"/>
-<part name="R4" library="resistor" deviceset="R-EU_" device="0204/7"/>
+<part name="R3" library="resistor" deviceset="R-EU_" device="0207/10" value="24K"/>
+<part name="R4" library="resistor" deviceset="R-EU_" device="0204/7" value="13K"/>
 <part name="P+2" library="supply1" deviceset="+5V" device=""/>
 <part name="P+1" library="supply1" deviceset="+5V" device=""/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
-<part name="R5" library="resistor" deviceset="R-EU_" device="0204/7"/>
-<part name="R6" library="resistor" deviceset="R-EU_" device="0204/7"/>
+<part name="R5" library="resistor" deviceset="R-EU_" device="0204/7" value="16K"/>
+<part name="R6" library="resistor" deviceset="R-EU_" device="0204/7" value="2K"/>
 <part name="P+3" library="supply1" deviceset="+5V" device=""/>
 <part name="P+22" library="supply1" deviceset="+12V" device=""/>
 <part name="P-6" library="supply1" deviceset="-12V" device=""/>
@@ -23688,18 +23688,18 @@ DIN A3, landscape with extra doc field</description>
 <part name="P+8" library="supply1" deviceset="+15V" device=""/>
 <part name="P-1" library="supply1" deviceset="-15V" device=""/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
-<part name="C4" library="rcl" deviceset="CPOL-EU" device="E3.5-10"/>
-<part name="C5" library="rcl" deviceset="CPOL-EU" device="E3.5-10"/>
-<part name="C6" library="rcl" deviceset="C-EU" device="050-025X075"/>
-<part name="C7" library="rcl" deviceset="C-EU" device="050-025X075"/>
+<part name="C4" library="rcl" deviceset="CPOL-EU" device="E3.5-10" value="1000uF"/>
+<part name="C5" library="rcl" deviceset="CPOL-EU" device="E3.5-10" value="1000uF"/>
+<part name="C6" library="rcl" deviceset="C-EU" device="050-025X075" value="100nF"/>
+<part name="C7" library="rcl" deviceset="C-EU" device="050-025X075" value="100nF"/>
 <part name="P+7" library="supply1" deviceset="+12V" device=""/>
 <part name="P-2" library="supply1" deviceset="-12V" device=""/>
 <part name="P+15" library="supply1" deviceset="+5V" device=""/>
 <part name="P+11" library="supply1" deviceset="+5V" device=""/>
-<part name="R19" library="rcl" deviceset="R-EU_" device="0207/10"/>
-<part name="R21" library="rcl" deviceset="R-EU_" device="0207/15"/>
-<part name="R23" library="rcl" deviceset="R-EU_" device="0207/15"/>
-<part name="R25" library="rcl" deviceset="R-EU_" device="0207/10"/>
+<part name="R19" library="rcl" deviceset="R-EU_" device="0207/10" value="100R"/>
+<part name="R21" library="rcl" deviceset="R-EU_" device="0207/15" value="100R"/>
+<part name="R23" library="rcl" deviceset="R-EU_" device="0207/15" value="100R"/>
+<part name="R25" library="rcl" deviceset="R-EU_" device="0207/10" value="100R"/>
 <part name="P+14" library="supply1" deviceset="+5V" device=""/>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
 <part name="D1" library="diode" deviceset="1N4004" device=""/>
@@ -23709,40 +23709,40 @@ DIN A3, landscape with extra doc field</description>
 <part name="P-5" library="supply1" deviceset="-12V" device=""/>
 <part name="P+17" library="supply1" deviceset="+5V" device=""/>
 <part name="P+16" library="supply1" deviceset="+5V" device=""/>
-<part name="C20" library="capacitor-wima" deviceset="C" device="5/2.5"/>
+<part name="C20" library="capacitor-wima" deviceset="C" device="5/2.5" value="100nF"/>
 <part name="GND32" library="supply1" deviceset="GND" device=""/>
 <part name="P+6" library="supply1" deviceset="+5V" device=""/>
 <part name="P+23" library="supply1" deviceset="+5V" device=""/>
 <part name="I_SENSOR1" library="wirepad" deviceset="3,17/1,3" device=""/>
 <part name="I_SENSOR2" library="wirepad" deviceset="3,17/1,3" device=""/>
-<part name="R16" library="pot" deviceset="TRIM_US-" device="S64W"/>
+<part name="R16" library="pot" deviceset="TRIM_US-" device="S64W" value="10K"/>
 <part name="P+24" library="supply1" deviceset="+12V" device=""/>
 <part name="P-7" library="supply1" deviceset="-12V" device=""/>
 <part name="GND35" library="supply1" deviceset="GND" device=""/>
-<part name="C21" library="capacitor-wima" deviceset="C" device="5/2.5"/>
-<part name="C22" library="capacitor-wima" deviceset="C" device="5/2.5"/>
+<part name="C21" library="capacitor-wima" deviceset="C" device="5/2.5" value="10uF"/>
+<part name="C22" library="capacitor-wima" deviceset="C" device="5/2.5" value="10uF"/>
 <part name="P-8" library="supply1" deviceset="-12V" device=""/>
 <part name="P+25" library="supply1" deviceset="+12V" device=""/>
 <part name="GND36" library="supply1" deviceset="GND" device=""/>
-<part name="C23" library="capacitor-wima" deviceset="C" device="5/2.5"/>
-<part name="C24" library="capacitor-wima" deviceset="C" device="5/2.5"/>
-<part name="R35" library="resistor" deviceset="R-EU_" device="0204/7"/>
-<part name="C25" library="rcl" deviceset="CPOL-EU" device="E2,5-6E"/>
+<part name="C23" library="capacitor-wima" deviceset="C" device="5/2.5" value="100nF"/>
+<part name="C24" library="capacitor-wima" deviceset="C" device="5/2.5" value="100nF"/>
+<part name="R35" library="resistor" deviceset="R-EU_" device="0204/7" value="10K"/>
+<part name="C25" library="rcl" deviceset="CPOL-EU" device="E2,5-6E" value="10uF"/>
 <part name="GND37" library="supply1" deviceset="GND" device=""/>
 <part name="D7" library="diode" deviceset="1N4004" device=""/>
-<part name="R11" library="resistor" deviceset="R-EU_" device="0204/7"/>
+<part name="R11" library="resistor" deviceset="R-EU_" device="0204/7" value="7,5K"/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
-<part name="R12" library="resistor" deviceset="R-EU_" device="0204/7"/>
-<part name="R36" library="resistor" deviceset="R-EU_" device="0204/7"/>
+<part name="R12" library="resistor" deviceset="R-EU_" device="0204/7" value="7,5K"/>
+<part name="R36" library="resistor" deviceset="R-EU_" device="0204/7" value="10K"/>
 <part name="GND38" library="supply1" deviceset="GND" device=""/>
 <part name="Q7" library="transistor-power" deviceset="IRF530" device=""/>
 <part name="GND39" library="supply1" deviceset="GND" device=""/>
-<part name="R37" library="resistor" deviceset="R-EU_" device="0204/7"/>
+<part name="R37" library="resistor" deviceset="R-EU_" device="0204/7" value="100R"/>
 <part name="IC8" library="v-reg" deviceset="79XXS" device=""/>
 <part name="IC9" library="v-reg" deviceset="78XXS" device=""/>
-<part name="C9" library="capacitor-wima" deviceset="C" device="5/2.5"/>
+<part name="C9" library="capacitor-wima" deviceset="C" device="5/2.5" value="100nF"/>
 <part name="GND40" library="supply1" deviceset="GND" device=""/>
-<part name="C10" library="capacitor-wima" deviceset="C" device="5/2.5"/>
+<part name="C10" library="capacitor-wima" deviceset="C" device="5/2.5" value="10uF"/>
 <part name="P+19" library="supply1" deviceset="+15V" device=""/>
 <part name="GND22" library="supply1" deviceset="GND" device=""/>
 <part name="LCD" library="pinhead" deviceset="PINHD-1X16" device=""/>
@@ -23750,10 +23750,10 @@ DIN A3, landscape with extra doc field</description>
 <part name="D9" library="diode" deviceset="1N4148" device="DO35-10"/>
 <part name="GND41" library="supply1" deviceset="GND" device=""/>
 <part name="P+20" library="supply1" deviceset="+5V" device=""/>
-<part name="R38" library="rcl" deviceset="R-EU_" device="0207/10"/>
+<part name="R38" library="rcl" deviceset="R-EU_" device="0207/10" value="1K"/>
 <part name="SENS-" library="wirepad" deviceset="2,54/1,1" device=""/>
 <part name="SENS+" library="wirepad" deviceset="2,54/1,1" device=""/>
-<part name="R39" library="rcl" deviceset="R-EU_" device="0207/10"/>
+<part name="R39" library="rcl" deviceset="R-EU_" device="0207/10" value="1,2K"/>
 <part name="GND29" library="supply1" deviceset="GND" device=""/>
 <part name="JP1" library="pinhead" deviceset="PINHD-1X4" device=""/>
 <part name="GND30" library="supply1" deviceset="GND" device=""/>
@@ -23763,6 +23763,9 @@ DIN A3, landscape with extra doc field</description>
 <sheet>
 <plain>
 <text x="378.46" y="7.62" size="1.778" layer="91">1.2</text>
+<text x="182.88" y="154.94" size="1.778" layer="91">Serial tag</text>
+<text x="182.88" y="226.06" size="1.778" layer="91">LCD</text>
+<text x="106.68" y="210.82" size="1.778" layer="91">FAN</text>
 </plain>
 <instances>
 <instance part="IC2" gate="G$1" x="66.04" y="134.62"/>
@@ -23784,8 +23787,14 @@ DIN A3, landscape with extra doc field</description>
 <instance part="GND19" gate="1" x="185.42" y="210.82"/>
 <instance part="SW1" gate="A" x="119.38" y="83.82" rot="MR90"/>
 <instance part="SW1" gate="B" x="165.1" y="78.74" rot="MR90"/>
-<instance part="R10" gate="G$1" x="109.22" y="71.12" rot="R90"/>
-<instance part="R9" gate="G$1" x="104.14" y="71.12" rot="R90"/>
+<instance part="R10" gate="G$1" x="109.22" y="71.12" smashed="yes" rot="R90">
+<attribute name="NAME" x="112.8014" y="67.31" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="115.062" y="67.31" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R9" gate="G$1" x="104.14" y="71.12" smashed="yes" rot="R90">
+<attribute name="NAME" x="100.1014" y="67.31" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="102.362" y="67.31" size="1.778" layer="96" rot="R90"/>
+</instance>
 <instance part="GND10" gate="1" x="106.68" y="60.96"/>
 <instance part="R13" gate="G$1" x="157.48" y="73.66" rot="R90"/>
 <instance part="GND14" gate="1" x="157.48" y="66.04"/>
@@ -23813,8 +23822,14 @@ DIN A3, landscape with extra doc field</description>
 <instance part="GND25" gate="1" x="233.68" y="167.64"/>
 <instance part="GND26" gate="1" x="233.68" y="139.7"/>
 <instance part="GND27" gate="1" x="233.68" y="114.3"/>
-<instance part="R15" gate="G$1" x="180.34" y="119.38" rot="R90"/>
-<instance part="C11" gate="G$1" x="180.34" y="111.76"/>
+<instance part="R15" gate="G$1" x="180.34" y="119.38" smashed="yes" rot="R90">
+<attribute name="NAME" x="178.8414" y="115.57" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="183.642" y="115.57" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="C11" gate="G$1" x="180.34" y="111.76" smashed="yes">
+<attribute name="NAME" x="181.483" y="112.2426" size="1.778" layer="95"/>
+<attribute name="VALUE" x="181.483" y="107.1626" size="1.778" layer="96"/>
+</instance>
 <instance part="GND18" gate="1" x="180.34" y="104.14"/>
 <instance part="IC6" gate="P" x="246.38" y="228.6" rot="R90"/>
 <instance part="GND28" gate="1" x="254" y="226.06"/>
@@ -23825,8 +23840,14 @@ DIN A3, landscape with extra doc field</description>
 <instance part="R33" gate="G$1" x="337.82" y="223.52" rot="R90"/>
 <instance part="R34" gate="G$1" x="337.82" y="210.82" rot="R90"/>
 <instance part="GND31" gate="1" x="337.82" y="203.2"/>
-<instance part="D5" gate="G$1" x="350.52" y="223.52" rot="R90"/>
-<instance part="D6" gate="G$1" x="350.52" y="210.82" rot="R90"/>
+<instance part="D5" gate="G$1" x="350.52" y="223.52" smashed="yes" rot="R90">
+<attribute name="NAME" x="355.1174" y="226.06" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="373.38" y="225.8314" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="D6" gate="G$1" x="350.52" y="210.82" smashed="yes" rot="R90">
+<attribute name="NAME" x="355.1174" y="213.36" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="370.84" y="210.5914" size="1.778" layer="96" rot="R180"/>
+</instance>
 <instance part="GND34" gate="1" x="350.52" y="205.74"/>
 <instance part="R2" gate="1" x="22.86" y="213.36"/>
 <instance part="R1" gate="G$1" x="22.86" y="226.06" rot="R90"/>
@@ -23835,8 +23856,14 @@ DIN A3, landscape with extra doc field</description>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="FRAME1" gate="G$2" x="287.02" y="0"/>
 <instance part="GND33" gate="1" x="345.44" y="147.32"/>
-<instance part="LOAD+" gate="G$1" x="307.34" y="231.14" rot="R270"/>
-<instance part="LOAD-" gate="G$1" x="345.44" y="165.1" rot="R270"/>
+<instance part="LOAD+" gate="G$1" x="307.34" y="231.14" smashed="yes" rot="R270">
+<attribute name="NAME" x="303.657" y="235.5342" size="1.778" layer="95"/>
+<attribute name="VALUE" x="298.577" y="237.998" size="1.778" layer="96"/>
+</instance>
+<instance part="LOAD-" gate="G$1" x="345.44" y="165.1" smashed="yes" rot="R270">
+<attribute name="NAME" x="344.297" y="169.4942" size="1.778" layer="95"/>
+<attribute name="VALUE" x="349.377" y="164.338" size="1.778" layer="96"/>
+</instance>
 <instance part="R28" gate="G$1" x="292.1" y="104.14" rot="MR0"/>
 <instance part="Q2" gate="G$1" x="91.44" y="203.2"/>
 <instance part="R8" gate="G$1" x="83.82" y="203.2" rot="R180"/>
@@ -23851,7 +23878,7 @@ DIN A3, landscape with extra doc field</description>
 <instance part="P+21" gate="1" x="236.22" y="233.68"/>
 <instance part="P+12" gate="1" x="142.24" y="45.72"/>
 <instance part="P+5" gate="1" x="38.1" y="129.54"/>
-<instance part="P+4" gate="1" x="38.1" y="152.4"/>
+<instance part="P+4" gate="1" x="33.02" y="152.4"/>
 <instance part="C1" gate="G$1" x="25.4" y="149.86" rot="R180"/>
 <instance part="GND3" gate="1" x="25.4" y="144.78"/>
 <instance part="P+10" gate="1" x="116.84" y="45.72"/>
@@ -23904,8 +23931,14 @@ DIN A3, landscape with extra doc field</description>
 <instance part="GND32" gate="1" x="345.44" y="208.28"/>
 <instance part="P+6" gate="1" x="58.42" y="190.5"/>
 <instance part="P+23" gate="1" x="350.52" y="228.6"/>
-<instance part="I_SENSOR1" gate="1" x="327.66" y="157.48" rot="R180"/>
-<instance part="I_SENSOR2" gate="1" x="342.9" y="157.48"/>
+<instance part="I_SENSOR1" gate="1" x="327.66" y="157.48" smashed="yes" rot="R180">
+<attribute name="NAME" x="323.723" y="160.7058" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="328.803" y="160.782" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="I_SENSOR2" gate="1" x="342.9" y="157.48" smashed="yes">
+<attribute name="NAME" x="329.057" y="159.3342" size="1.778" layer="95"/>
+<attribute name="VALUE" x="341.757" y="154.178" size="1.778" layer="96"/>
+</instance>
 <instance part="R16" gate="G$1" x="208.28" y="101.6"/>
 <instance part="P+24" gate="1" x="259.08" y="76.2"/>
 <instance part="P-7" gate="1" x="259.08" y="45.72"/>
@@ -23917,8 +23950,14 @@ DIN A3, landscape with extra doc field</description>
 <instance part="GND36" gate="1" x="7.62" y="175.26"/>
 <instance part="C23" gate="G$1" x="20.32" y="187.96" rot="R180"/>
 <instance part="C24" gate="G$1" x="20.32" y="175.26" rot="R180"/>
-<instance part="R35" gate="G$1" x="195.58" y="119.38" rot="R90"/>
-<instance part="C25" gate="G$1" x="195.58" y="111.76"/>
+<instance part="R35" gate="G$1" x="195.58" y="119.38" smashed="yes" rot="R90">
+<attribute name="NAME" x="194.0814" y="115.57" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="198.882" y="115.57" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="C25" gate="G$1" x="195.58" y="111.76" smashed="yes">
+<attribute name="NAME" x="196.723" y="112.2426" size="1.778" layer="95"/>
+<attribute name="VALUE" x="196.723" y="107.1626" size="1.778" layer="96"/>
+</instance>
 <instance part="GND37" gate="1" x="195.58" y="104.14"/>
 <instance part="D7" gate="1" x="121.92" y="231.14" rot="R90"/>
 <instance part="R11" gate="G$1" x="114.3" y="238.76" rot="R180"/>
@@ -23926,7 +23965,10 @@ DIN A3, landscape with extra doc field</description>
 <instance part="R12" gate="G$1" x="134.62" y="233.68" rot="R270"/>
 <instance part="R36" gate="G$1" x="134.62" y="220.98" rot="R270"/>
 <instance part="GND38" gate="1" x="134.62" y="213.36"/>
-<instance part="Q7" gate="G$1" x="185.42" y="101.6"/>
+<instance part="Q7" gate="G$1" x="185.42" y="101.6" smashed="yes">
+<attribute name="NAME" x="193.04" y="99.06" size="1.778" layer="95"/>
+<attribute name="VALUE" x="190.5" y="96.52" size="1.778" layer="96"/>
+</instance>
 <instance part="GND39" gate="1" x="187.96" y="93.98"/>
 <instance part="R37" gate="G$1" x="172.72" y="91.44" rot="R180"/>
 <instance part="IC8" gate="1" x="167.64" y="25.4"/>
@@ -23937,8 +23979,14 @@ DIN A3, landscape with extra doc field</description>
 <instance part="P+19" gate="1" x="269.24" y="238.76"/>
 <instance part="GND22" gate="1" x="269.24" y="226.06"/>
 <instance part="LCD" gate="A" x="193.04" y="220.98" rot="R90"/>
-<instance part="D8" gate="G$1" x="220.98" y="86.36" rot="R90"/>
-<instance part="D9" gate="G$1" x="220.98" y="81.28" rot="R90"/>
+<instance part="D8" gate="G$1" x="220.98" y="86.36" smashed="yes" rot="R90">
+<attribute name="NAME" x="220.4974" y="91.44" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="241.3" y="78.5114" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="D9" gate="G$1" x="220.98" y="81.28" smashed="yes" rot="R90">
+<attribute name="NAME" x="217.9574" y="78.74" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="241.3" y="91.2114" size="1.778" layer="96" rot="R180"/>
+</instance>
 <instance part="GND41" gate="1" x="220.98" y="76.2"/>
 <instance part="P+20" gate="1" x="220.98" y="91.44"/>
 <instance part="R38" gate="G$1" x="226.06" y="83.82" rot="MR0"/>
@@ -24726,7 +24774,9 @@ DIN A3, landscape with extra doc field</description>
 <segment>
 <pinref part="IC2" gate="G$1" pin="AVCC"/>
 <pinref part="P+4" gate="1" pin="+5V"/>
-<wire x1="43.18" y1="152.4" x2="38.1" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="152.4" x2="40.64" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="152.4" x2="40.64" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="149.86" x2="33.02" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R3" gate="G$1" pin="2"/>
